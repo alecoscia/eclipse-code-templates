@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="html_tag" deleted="false" description="Short for Each" enabled="true" name="each">&lt;? foreach ($$${array} as $$${value}): ?&gt;
+	${cursor}
+&lt;? endforeach; ?&gt;</template><template autoinsert="true" context="html_tag" deleted="false" description="Short Print" enabled="true" name="echo">&lt;?= $$${var} ?&gt;</template><template autoinsert="true" context="html_tag" deleted="false" description="Short if" enabled="true" name="if">&lt;? if (${expression}): ?&gt;
+	${cursor}
+&lt;? endif; ?&gt;</template></templates>
