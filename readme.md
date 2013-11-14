@@ -33,15 +33,16 @@ public static function ${function_name}(${params}) {
 
 ###PHP in HTML views
 Those templates are available only editing the HTML view.
+
 `echo`
 
-```html
+```php
 <?= $$${var} ?>
 ```
 
 `if`
 
-```html
+```php
 <? if (${expression}): ?>
 	${cursor}
 <? endif; ?>
@@ -49,7 +50,7 @@ Those templates are available only editing the HTML view.
 
 `each`
 
-```html
+```php
 <? foreach ($$${array} as $$${value}): ?>
 	${cursor}
 <? endforeach; ?>
